@@ -11,4 +11,4 @@ Başta dizinin 2. elemanı seçilir ve öndeki elemanla karşılaştırma yapıl
 
 Bu diziyi insertion sort algoritması ile sıralama işlemi yapacağız.
 
-![Insertion Sort][img/insertion-sort.png]
+![Insertion Sort][[img/insertion-sort.png](https://github.com/cemalettinaltintas/patika-homeworks/blob/master/veri-yapilari/img/insertion-sort.PNG)]
