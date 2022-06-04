@@ -9,7 +9,7 @@ Bu algoritma diziyi ardışık olarak en küçük alt dizilere yarılar ve tek b
 
 Bu dizi aşağıdaki şemada olduğu gibi sıralanır.
 
-![Merge Sort](img/merge-sort.png)
+![Merge Sort](/img/merge-sort.png)
 
 ## Big O Gösterimi
 
