@@ -11,4 +11,31 @@ Başta dizinin 2. elemanı seçilir ve öndeki elemanla karşılaştırma yapıl
 
 Bu diziyi insertion sort algoritması ile sıralama işlemi yapacağız.
 
-![Insertion Sort][img/insertion-sort.png]
+![Insertion Sort](img/insertion-sort.PNG)
+
+## C# Kodları:
+
+```c#
+        static void Main(string[] args)
+        {
+             int[] dizi = { 22, 27, 16, 2, 18, 6 };
+             sirala(dizi);
+        }
+        static void sirala(int[] dizi)
+        {
+            int n = dizi.Length,deger,j;
+            
+            for (int i = 1; i <n; i++)
+            {
+                deger = dizi[i];
+                j = i - 1;
+                while (j>=0 && dizi[j]>deger)
+                {
+                    dizi[j + 1] = dizi[j];
+                    j--;
+                }
+                dizi[j + 1] = deger;
+            }
+        }
+
+```
