@@ -39,3 +39,16 @@ Bu diziyi insertion sort algoritması ile sıralama işlemi yapacağız.
         }
 
 ```
+
+## Big O
+Big O gösterimi : (n-1)+(n-2)+(n+3)+...+1 = (n(n-1))/2 = n^2 sonucuna ulaşırız.
+
+Sonuç : O(n^2)
+
+## Time Complexity
+
+Best Case : Dizinin sıralı olması. n
+
+Worst Case : Dizinin tersten sıralı olması : n^2
+
+Average Case : Dizinin normal dağılımı : n^2
