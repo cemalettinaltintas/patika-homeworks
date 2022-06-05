@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 80%;
+            margin: auto;
+        }
+        header{
+            text-align: center;
+        }
+        header img{
+            width: 40%;
+        }
+        .searcher{
+            text-align: center;
+        }
+        .links{
+            text-align: center;
+        }
+        .clearfix::after{
+            content: "";
+            clear: both;
+        }
+        .leftcard{
+            background-color: #7EE5DA;
+            float: left;
+            width: 33%;
+            min-height: 90px;
+            vertical-align:bottom;
+        }
+        .middlecard{
+            background-color: #70CCC2;
+            float: left;
+            width: 33%;
+            min-height: 90px;
+            vertical-align:bottom;
+        }
+        .rightcard{
+            background-color: #62B3AA;
+            float: left;
+            width: 33%;
+            min-height: 90px;
+            vertical-align:bottom;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/google.jpg" alt="">
+        </header>
+        <div class="searcher">
+            <p>Search the web using Google!</p>
+            <textarea name="" id="" cols="50" rows="1"></textarea><br />
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky!</button>
+        </div>
+        <div class="links clearfix">
+            <div class="leftcard">
+                <p>Special Cards</p>
+                <div><a href="#">Stanford Search</a></div>
+                <div><a href="#">Linux Search</a></div>
+            </div>
+            <div class="middlecard">
+                <div><a href="#">Help!</a></div>
+                <div><a href="#">About Google</a></div>
+                <div><a href="#">Company Info</a></div>
+                <div><a href="#">Google! Logos</a></div>
+            </div>
+            <div class="rightcard">
+                <p>Get Google!</p>
+                <p>Updates monthly:</p>
+                <div><input type="text" value="your e-mail"></div>
+                <button>Subscribe</button><a href="#">Archive</a>
+            </div>
+            <footer>Copyright © 1998 Google Inc.</footer>
+        </div>
+    </div>
+</body>
+</html>
